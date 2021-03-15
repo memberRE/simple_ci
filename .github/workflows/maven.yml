@@ -34,7 +34,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-      - name: Test
+    - name: Test
       run: |
         echo "Run JUnit4_lalala"
         mvn test
